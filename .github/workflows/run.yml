@@ -30,6 +30,6 @@ jobs:
       - run: npm install
       - run: npm start
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ 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 }}
           GIST_ID: d4ab661bbff7373295a1420c8599e63f
           USERNAME: ${{ github.actor }}
